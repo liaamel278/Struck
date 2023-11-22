@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="172dp"
+        android:layout_height="158dp"
+        android:layout_margin="0dp"
+        android:background="@drawable/img"
+        android:drawablePadding="10dp"
+        android:gravity="start|top"
+        android:paddingStart="70dp"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <TextView
+        android:id="@+id/myTextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Rp. 30.000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <TextView
+        android:id="@+id/myTextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Waimea Bay Jl. Cikarang Barat,Bekasi"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="215dp" />
+
+    <TextView
+        android:id="@+id/myTextView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="08 Sep 2023"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="242dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/trans"
+        app:menu="@menu/struck"/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="4dp"
+        android:layout_weight="0"
+        android:background="#000000"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <TextView
+        android:id="@+id/myTextView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Rincian transaksi"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <TextView
+        android:id="@+id/myTextView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Status"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <TextView
+        android:id="@+id/myTextView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Selesai"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="331dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <TextView
+        android:id="@+id/myTextView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Waktu"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+    <TextView
+        android:id="@+id/myTextView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="10:00 AM"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="309dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+    <TextView
+        android:id="@+id/myTextView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Tanggal"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="432dp" />
+
+    <TextView
+        android:id="@+id/myTextView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="08 Sep 2023"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="432dp" />
+
+    <TextView
+        android:id="@+id/myTextView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Jenis kendaraan"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="474dp" />
+
+    <TextView
+        android:id="@+id/myTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Honda"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="336dp"
+        tools:layout_editor_absoluteY="474dp" />
+    <TextView
+        android:id="@+id/myTextView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Honda"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="336dp"
+        tools:layout_editor_absoluteY="474dp" />
+
+    <TextView
+        android:id="@+id/myTextView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Plat Nomor"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="517dp" />
+
+    <TextView
+        android:id="@+id/myTextView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="D 4354 25"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="303dp"
+        tools:layout_editor_absoluteY="517dp" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="4dp"
+        android:layout_weight="0"
+        android:background="#000000"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="560dp" />
+
+    <TextView
+        android:id="@+id/myTextView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Total"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="576dp" />
+
+    <TextView
+        android:id="@+id/myTextView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Rp. 30.000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="576dp" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="4dp"
+        android:layout_weight="0"
+        android:background="#000000"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="617dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
